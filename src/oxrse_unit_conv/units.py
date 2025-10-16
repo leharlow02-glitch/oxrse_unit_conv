@@ -11,15 +11,16 @@ h = hour
 # meter
 kilometer = Unit(name='kilometer', abbr="km", si=meter, to_si_fun=lambda n: n * 1000)
 km = kilometer
-
-mile = Unit(name='mile', abbr='mile', si=meter, to_si_fun=lambda n: n * 1_609.344)
+mile = Unit(name='mile', abbr='mi', si=meter, to_si_fun=lambda n: n * 1_609.344)
+mi = mile
 
 # meter_sq
 
 # meter_cu
 
 # kilogram
-
+gram = Unit(name='gram', abbr='g', si=kilogram, to_si_fun=lambda n n / 1000)
+g = gram
 pound = Unit(name='pound', abbr='lb', si=kilogram, to_si_fun=lambda n: n * 0.4535924)
 lb = pound
 
