@@ -19,7 +19,7 @@ mi = mile
 # meter_cu
 
 # kilogram
-gram = Unit(name='gram', abbr='g', si=kilogram, to_si_fun=lambda n n / 1000)
+gram = Unit(name='gram', abbr='g', si=kilogram, to_si_fun=lambda n: n / 1000)
 g = gram
 pound = Unit(name='pound', abbr='lb', si=kilogram, to_si_fun=lambda n: n * 0.4535924)
 lb = pound
