@@ -37,6 +37,10 @@ pounds = pound
 # ampere
 
 # kelvin
+celsius = Unit(name="celsius", abbr="C", si=kelvin, to_si_fun=lambda n: n + 273.15)
+C = celsius
+fahrenheit = Unit(name="fahrenheit", abbr="F", si=kelvin, to_si_fun=lambda n: ((n-32)/1.8) + 273.15)
+F = fahrenheit
 
 # mole
 
